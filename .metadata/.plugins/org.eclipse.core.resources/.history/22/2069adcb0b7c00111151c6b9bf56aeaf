@@ -1,0 +1,35 @@
+public class ClubApp{
+	public static void main(String[] args) {
+		
+
+
+
+
+System.out.println("=== 部活情報 ==="); 
+        ClubMember.showClubInfo(); 
+ 
+        System.out.println("¥n=== 部員を登録 ==="); 
+        ClubMember m1 = new ClubMember("太郎", 3000); 
+        ClubMember m2 = new ClubMember("花⼦", 1500); 
+        ClubMember m3 = new ClubMember("次郎", 5000); 
+ 
+        System.out.println("¥n=== 部費の⽀払い ==="); 
+        m1.payClubFee(1000); 
+        m2.payClubFee(1000); 
+        m3.payClubFee(2000); 
+ 
+        System.out.println("¥n=== 部員の残⾼ ==="); 
+        m1.showInfo(); 
+        m2.showInfo(); 
+        m3.showInfo(); 
+ 
+        System.out.println("¥n=== 部活の現状 ==="); 
+        ClubMember.showClubInfo(); 
+ 
+        System.out.println("¥n=== 部活名の変更 ==="); 
+        ClubMember.setClubName("情報メディア研究会"); 
+ 
+        System.out.println("¥n=== 更新後の部活情報 ==="); 
+        ClubMember.showClubInfo(); 
+    } 
+} 

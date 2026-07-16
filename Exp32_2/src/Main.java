@@ -5,5 +5,4 @@ public class Main {
 		
 		System.out.println(c1.add(2 ,3));
 	}
-
 }

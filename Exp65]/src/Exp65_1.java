@@ -24,5 +24,14 @@ public class Exp65_1 {
 		Integer x = 10;
 		int y = x;
 		
+		Double num1 = Double.valueOf(13.0);
+		int num2 = num1.intValue();
+		
+		
+		Double num3 = Double.valueOf(13.0);
+		double num4 = num3.doubleValue();
+		int num5 = intNum1.intValue();
+		
+		
 	}
 }

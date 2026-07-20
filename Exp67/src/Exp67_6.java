@@ -14,9 +14,10 @@ public class Exp67_6 {
 		System.out.println(num3);
 		
 		Collections.sort(num3);
-		System.out.println(num3);
+		System.out.println("昇順" + num3);
 		Collections.sort(num2);
-		System.out.println(num2);
+		System.out.println("昇順" + num2);
+		
 		Collections.sort(num2,Collections.reverseOrder());
 		System.out.println(num2);
 		Collections.sort(num3,Collections.reverseOrder());

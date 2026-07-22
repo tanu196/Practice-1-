@@ -14,7 +14,7 @@
 		<item key="additionalparam" value="-encoding UTF-8&#x0D;&#x0A;-charset UTF-8"/>
 	</section>
 	<section name="JavaProjectWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="139"/>
+		<item key="DIALOG_X_ORIGIN" value="27"/>
 		<item key="DIALOG_Y_ORIGIN" value="0"/>
 		<item key="DIALOG_WIDTH" value="747"/>
 		<item key="DIALOG_HEIGHT" value="813"/>

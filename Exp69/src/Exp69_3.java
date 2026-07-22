@@ -7,6 +7,15 @@ public class Exp69_3 {
 			num.add(i);
 		}
 		System.out.println(num);
+//		Iterator<Integer> it = num.iterator();
+//		
+//		while(it.hasNext()) {
+//			Integer value = it.next();
+//			if(value % 2 == 0) {
+//				it.remove();
+//			}
+//		}
+		
 		Iterator<Integer> it = num.iterator();
 		
 		while(it.hasNext()) {
@@ -16,6 +25,17 @@ public class Exp69_3 {
 			}
 		}
 		System.out.println(num);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 	}

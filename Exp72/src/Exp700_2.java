@@ -119,5 +119,8 @@ public class Exp700_2 {
 		System.out.println();
 
 		System.out.println("プログラム終了");
+		
+		
+		
 	}
 }

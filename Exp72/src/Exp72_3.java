@@ -23,6 +23,9 @@ public class Exp72_3 {
 		boolean result2 = treeSet.add("ぬみ￥");
 		System.out.println(result);
 		System.out.println(result2);
+		
+		
+		
 	}
 
 }

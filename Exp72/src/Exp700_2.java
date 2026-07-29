@@ -120,6 +120,7 @@ public class Exp700_2 {
 
 		System.out.println("プログラム終了");
 		
+		System.out.println("HashSet");
 		
 		
 	}

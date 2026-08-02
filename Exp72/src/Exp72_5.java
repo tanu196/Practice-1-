@@ -14,10 +14,17 @@ public class Exp72_5 {
 		person2.put("name", "Hanako");
 		person2.put("age", "18");
 		
+		Map<String , String> person3 = new HashMap<>();
+		person3.put("name", "Ikumu");
+		person3.put("age", "18");
+		
 		list.add(person1);
 		list.add(person2);
-		
+		list.add(person3);
 		System.out.println(list);
+		
+		
+		
 	}
 
 }

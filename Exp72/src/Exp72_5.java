@@ -18,11 +18,15 @@ public class Exp72_5 {
 		person3.put("name", "Ikumu");
 		person3.put("age", "18");
 		
+		Map<String , String> person4 = new HashMap<>();
+		person3.put("name", "baun");
+		person3.put("age", "13");
+		
 		list.add(person1);
 		list.add(person2);
 		list.add(person3);
+		list.add(person4);		
 		System.out.println(list);
-		
 		
 		
 	}

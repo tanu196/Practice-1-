@@ -22,10 +22,17 @@ public class Exp72_5 {
 		person3.put("name", "baun");
 		person3.put("age", "13");
 		
+		Map<String , String> person5 = new HashMap<>();
+		person3.put("name", "numa");
+		person3.put("age", "10");
+		
+		
 		list.add(person1);
 		list.add(person2);
 		list.add(person3);
-		list.add(person4);		
+		list.add(person4);
+		list.add(person5);
+		
 		System.out.println(list);
 		
 		

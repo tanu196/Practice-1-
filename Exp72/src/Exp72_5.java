@@ -19,12 +19,17 @@ public class Exp72_5 {
 		person3.put("age", "18");
 		
 		Map<String , String> person4 = new HashMap<>();
-		person3.put("name", "baun");
-		person3.put("age", "13");
+		person4.put("name", "baun");
+		person4.put("age", "13");
 		
 		Map<String , String> person5 = new HashMap<>();
-		person3.put("name", "numa");
-		person3.put("age", "10");
+		person5.put("name", "numa");
+		person5.put("age", "10");
+		
+		Map<String , String>person6 = new HashMap<>();
+		person6.put("name", "hayato");
+		person6.put("age", "1000");
+		
 		
 		
 		list.add(person1);
@@ -32,7 +37,7 @@ public class Exp72_5 {
 		list.add(person3);
 		list.add(person4);
 		list.add(person5);
-		
+		list.add(person6);
 		System.out.println(list);
 		
 		

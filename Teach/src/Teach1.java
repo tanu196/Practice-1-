@@ -6,7 +6,9 @@ public class Teach1 {
 		System.out.println(num0);
 	}
 	
-	
+	static void hello(){
+		
+	}
 	
 	
 	{int num1 = 0;

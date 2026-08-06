@@ -1,7 +1,9 @@
 
 public class Main {
 	public static void main(String[] args) {
-		Teach1 n = new Teach1();
-		Teach1 m = new Teach1();
+//		Teach2 n = new Teach2();
+//		n.Ara(2 , 3 , 4 , 5 , 7 , 78);
+//		n.Ara("合計" , 45 ,56 , 67);
+		Teach1.hello();
 	}
 }

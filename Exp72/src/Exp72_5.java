@@ -31,7 +31,6 @@ public class Exp72_5 {
 		person6.put("age", "1000");
 		
 		
-		
 		list.add(person1);
 		list.add(person2);
 		list.add(person3);

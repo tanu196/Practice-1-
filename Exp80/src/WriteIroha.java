@@ -31,11 +31,14 @@ public class WriteIroha {
 			bw.write("浅き夢見じ酔ひもせず");
 			bw.newLine();
 			
+			bw.close();
 			
 		}catch(IOException e) {
-			e.printStackTrace();
+			System.out.println("error");
+			return;
 		}
 		
+		System.out.println("正常に終了しました。");
 	}
 
 }

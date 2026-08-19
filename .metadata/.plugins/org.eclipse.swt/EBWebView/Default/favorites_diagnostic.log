@@ -474,3 +474,23 @@
 2026-08-16 16:54:09.159: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-08-16 16:54:09.159: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-08-16 17:01:37.849: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-16 17:33:38.381: [INFO] CurrentProfilePath: C:\pleiades\2026-03\eclipse\Practice1\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-16 17:33:38.381: [INFO] Profiles total count: 1
+2026-08-16 17:33:38.381: [INFO] Profile: name=プロファイル 1 path=C:\pleiades\2026-03\eclipse\Practice1\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-16T07:56:20.124Z
+2026-08-16 17:33:38.381: [INFO] LastUsedProfileDir: C:\pleiades\2026-03\eclipse\Practice1\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-16 17:33:38.381: [INFO] MostRecentlyActiveProfile: name=プロファイル 1 path=C:\pleiades\2026-03\eclipse\Practice1\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-16T07:56:20.124Z
+2026-08-16 17:33:38.381: [INFO] OnDoneLoading sync enabled: 0
+2026-08-16 17:33:38.381: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-16 17:33:38.381: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-16 17:33:38.381: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-16 17:33:42.808: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-16 17:41:05.462: [INFO] CurrentProfilePath: C:\pleiades\2026-03\eclipse\Practice1\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-16 17:41:05.462: [INFO] Profiles total count: 1
+2026-08-16 17:41:05.462: [INFO] Profile: name=プロファイル 1 path=C:\pleiades\2026-03\eclipse\Practice1\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-16T07:56:20.124Z
+2026-08-16 17:41:05.462: [INFO] LastUsedProfileDir: C:\pleiades\2026-03\eclipse\Practice1\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-16 17:41:05.462: [INFO] MostRecentlyActiveProfile: name=プロファイル 1 path=C:\pleiades\2026-03\eclipse\Practice1\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-08-16T07:56:20.124Z
+2026-08-16 17:41:05.462: [INFO] OnDoneLoading sync enabled: 0
+2026-08-16 17:41:05.462: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-16 17:41:05.462: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-16 17:41:05.462: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-16 18:00:03.913: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1

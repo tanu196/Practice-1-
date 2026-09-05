@@ -3888,3 +3888,44 @@ java.io.IOException: Could not find the language server binary
 
 !ENTRY org.eclipse.lsp4e 2 0 2026-09-03 19:41:12.702
 !MESSAGE [LS:GitHub Copilot 言語サーバー][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.jdt.ui 4 0 2026-09-06 00:45:08.007
+!MESSAGE ClassCastException computing completion proposal in Silver7.java at offset 27
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.jdt.internal.compiler.ast.RecordComponent cannot be cast to class org.eclipse.jdt.internal.compiler.ast.Argument (org.eclipse.jdt.internal.compiler.ast.RecordComponent and org.eclipse.jdt.internal.compiler.ast.Argument are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @3bbf6fef)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.consumeMethodHeaderRightParen(Parser.java:5246)
+	at org.eclipse.jdt.internal.codeassist.complete.CompletionParser.consumeMethodHeaderRightParen(CompletionParser.java:3607)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.consumeRule(Parser.java:6835)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11701)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11975)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.parse(Parser.java:11916)
+	at org.eclipse.jdt.internal.compiler.parser.Parser.dietParse(Parser.java:10308)
+	at org.eclipse.jdt.internal.codeassist.complete.CompletionParser.dietParse(CompletionParser.java:5503)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.complete(CompletionEngine.java:1996)
+	at org.eclipse.jdt.internal.core.Openable.codeComplete(Openable.java:139)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeComplete(CompilationUnit.java:451)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeComplete(CompilationUnit.java:441)
+	at org.eclipse.jdt.ui.text.java.JavaContentAssistInvocationContext.computeKeywordsAndContext(JavaContentAssistInvocationContext.java:307)
+	at org.eclipse.jdt.ui.text.java.JavaContentAssistInvocationContext.getCoreContext(JavaContentAssistInvocationContext.java:179)
+	at org.eclipse.jdt.internal.ui.text.java.TemplateCompletionProposalComputer.computeCompletionEngine(TemplateCompletionProposalComputer.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractTemplateCompletionProposalComputer.computeCompletionProposals(AbstractTemplateCompletionProposalComputer.java:71)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:353)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:332)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:288)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:385)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:384)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$11(AsyncCompletionProposalPopup.java:419)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+	Suppressed: java.lang.Throwable: Source line 1 :
+-----
+public record Item(int id .|)
+-----
+		at org.eclipse.jdt.internal.ui.util.SelectionUtil.logException(SelectionUtil.java:157)
+		at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:373)
+		... 12 more

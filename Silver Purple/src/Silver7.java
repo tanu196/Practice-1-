@@ -1,9 +1,15 @@
-record Item(int id , String name) {}
+record Item(int id , String name) {
+	Item{
+		name = name.strip();
+		id = 123;
+	}
+	
+}
 
 class Silver7 {
 	public static void main(String[] args) {
-		Item item1 = new Item(100 , "T-shirts");
-		Item item2 = new Item(100 , "からあげ");
+		Item item1 = new Item(100 , "T-  shirts");
+		Item item2 = new Item(100 , "か ら あげ");
 		System.out.println(item1.id());
 		System.out.println(item1.name());
 		System.out.println(item1.equals(item2));
@@ -11,6 +17,5 @@ class Silver7 {
 		System.out.println(item1.hashCode());
 		System.out.println(item1.toString());
 		System.out.println(item2.toString());
-		
 	}
 }

@@ -22,7 +22,5 @@ public class Silver9 {
 		af[0] = 'w';
 		af[1] = 'r';
 		System.out.println(af);
-		
-		
 	}
 }

@@ -10,7 +10,9 @@ public class Silver10 {
 		int[] e ;
 		
 		
-		
+		for(int i = 0 , j = 89; i < 17 && j < 213 ; i++ , j++) {
+			System.out.print(i + " ");
+		}
 		
 		
 		

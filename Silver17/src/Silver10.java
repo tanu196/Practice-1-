@@ -8,7 +8,6 @@ public class Silver10 {
 		int [] d ;
 		d = new int[] {2 , 3};
 		int[] e ;
-//		e = {2 , 3};
 		
 		
 		

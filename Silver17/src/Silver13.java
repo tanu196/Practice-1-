@@ -12,6 +12,14 @@ public class Silver13 {
 		
 		
 		
+		String line = "   dff df fefef ffe fef ef ef e ef ef\n      ef ";
+		
+		System.out.println(line.stripIndent());
+		
+		
+		String line2 = "明日\\nkore\\rdfafdfgsdgds";
+		
+		System.out.println(line2.translateEscapes());
 		
 	}
 }

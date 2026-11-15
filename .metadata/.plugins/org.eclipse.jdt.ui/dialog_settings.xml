@@ -19,14 +19,14 @@
 	</section>
 	<section name="JavaProjectWizard.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="27"/>
-		<item key="DIALOG_Y_ORIGIN" value="7"/>
+		<item key="DIALOG_Y_ORIGIN" value="3"/>
 		<item key="DIALOG_WIDTH" value="747"/>
 		<item key="DIALOG_HEIGHT" value="813"/>
 		<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="94"/>
-		<item key="DIALOG_Y_ORIGIN" value="13"/>
+		<item key="DIALOG_Y_ORIGIN" value="67"/>
 		<item key="DIALOG_WIDTH" value="680"/>
 		<item key="DIALOG_HEIGHT" value="661"/>
 		<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
